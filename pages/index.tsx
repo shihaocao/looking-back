@@ -54,27 +54,26 @@ export default function Home() {
           </div>
           <div className='flex flex-col justify-center items-center m-10 gap-x-4 md:mt-[-30px]'>
             <h1 className='text-center text-black normal-case tracking-tight'>
-              Pathfinder for Autonomous Navigation <br />
+              Looking Back... <br />
             </h1>
 
             <div className='flex  justify-center px-5 md:px-10 lg:px-20 w-full md:w-2/3 lg:w-[50vw] flex flex-col  pt-10 lg:pt-5'>
               {' '}
               <p className=''>
-                <Sidenote id={1} right={false}>
+                {/* <Sidenote id={1} right={false}>
                   All views presented here are personal to members of PAN, and do not represent views of their employers
-                </Sidenote>
-                <Sidenote id={2} right={true}>
+                </Sidenote> */}
+                <Sidenote id={1} right={true}>
                   The code to make this website was in large part made possible by the groundwork laid by Anson Yu and Kevlin Yu from the leversforprogress.com project.
                 </Sidenote>
                 <p className='text-center tracking-normal'>
                   <em>
-                    A Living Database of Methods to Advance Science and
-                    Technology
+                    A collection of lessons learned and stories from teams and clubs in school.
                   </em>
 
                   <br />
 
-                  <em>By Kelvin Yu and Anson Yu</em>
+                  <em>By Shihao Cao and friends</em>
                 </p>
               </p>
             </div>
